@@ -36,7 +36,7 @@ body {
 
 @font-face {
     font-family: fancyFont;
-    src: url(other/HerrVonMuellerhoff-Regular.ttf);
+    src: url(../other/HerrVonMuellerhoff-Regular.ttf);
 }
 
 #top-middle {
