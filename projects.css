@@ -1,0 +1,56 @@
+/* Code credit for some of the image gallery styles: https://www.w3schools.com/css/css_image_gallery.asp */
+
+.img-pair {
+    margin: 5px;
+    border: 1px solid #F7E9DE;
+    float: left;
+    width: auto;
+}
+  
+.img-pair:hover {
+    border: 1px solid #777;
+}
+  
+.img-pair img {
+    width: auto;
+    height: 150px;
+}
+
+.img-pair {
+    padding: 15px;
+    text-align: center;
+}
+
+.proj-content {
+    display: none;
+}
+
+h2, #img-gallery {
+    margin-left: 6%;
+    float: left;
+    color: #520002;
+}
+
+#img-gallery a {
+    color: #520002;
+}
+
+#img-gallery img {
+    border-radius: 25px;
+}
+
+#img-gallery-content {
+    margin-left: 6%;
+    color: #520002;
+    margin-right: 6%;
+}
+
+#dg-pgs, #acc-pgs {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#dg-pgs img, #acc-pgs img {
+    height: auto;
+    width: 75%;
+}

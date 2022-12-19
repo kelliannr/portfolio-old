@@ -1,0 +1,44 @@
+#left-side {
+    /*background-color: green;*/
+    float: left;
+    width: 25%;
+    /*margin-left: 3%;*/
+}
+
+#left-side li {
+    list-style: none;
+    /*padding: 0.5%;*/
+}
+
+#left-side h2 {
+    margin-left: 25%;
+    float: left;
+}
+
+#left-side ul {
+    margin-left: 18%;
+}
+
+#left-side, #right-side {
+    color: #520002;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+.course-group {
+    display: none;
+}
+
+#right-side {
+    float: left;
+    width: 72%;
+}
+
+#vertical {
+    border-left: 1px solid #520002;
+    height: 620px;
+    position: absolute;
+    left: 22%;
+}

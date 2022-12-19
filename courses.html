@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Courses</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+              rel="stylesheet" 
+              integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="courses.css" />
+    </head>
+
+    <header>
+        <div id="header-flex">
+            <nav id="navbar">
+                <ul id="main">
+                    <li id="nav-item"><a href="index.html">About</a></li>
+                    <li id="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-item" href="#">
+                                Portfolio
+                            </a>
+                        
+                            <ul class="dropdown-content">
+                                <li><a class="dropdown-item" href="courses.html">Courses</a></li>
+                                <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="nav-item"><a target="_blank" href="other/Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+            <h1 id="top-middle">KelliAnn Ramirez</h1>
+
+            <div id="imgs">
+                <a target="_blank" href="https://github.com/kelliannr"></a>
+                    <img src="images/github.png" />
+                    <!-- https://icons8.com/icon/62856/github -->
+                </a>
+                <a target="_blank" href="https://linkedin.com/in/kelliann-ramirez/">
+                    <img src="images/linkedin.png" />
+                    <!-- https://icons8.com/icon/98960/linkedin" -->
+                </a>
+                <a target="_blank" href="mailto:kmramirez125@gmail.com">
+                    <img src="images/envelope.png" />
+                    <!-- https://icons8.com/icon/85022/envelope" -->
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="sep"></div>
+    <br />
+    
+    <body>
+        <!-- Code credit for showing and hiding based on radio buttons:
+            https://www.tutorialrepublic.com/faq/show-hide-divs-based-on-radio-button-selection-in-jquery.php#:~:text=Answer%3A%20Use%20the%20jQuery%20show,value%20is%20set%20to%20none%20.-->
+
+        <div id="left-side">
+            <h2>Course Topic:</h2>
+            <br /><br />
+            <ul>
+                <li><label><input type="radio" name="course-radio" value="data-sci">Data Science</label></li>
+                <li><label><input type="radio" name="course-radio" value="info">Informatics</label></li>
+                <li><label><input type="radio" name="course-radio" value="java">Java Programming</label></li>
+                <li><label><input type="radio" name="course-radio" value="skills">Skills</label></li>
+                <li><label><input type="radio" name="course-radio" value="stats">Statistics</label></li>
+                <li><label><input type="radio" name="course-radio" value="web-dev">Web Development</label></li>
+            </ul>
+        </div>
+
+        <div id="vertical"></div>
+
+        <div id="right-side">
+            <h2>Courses:</h2>
+            <div class="data-sci course-group">
+                <h3>INFO 180: Introduction to Data Science</h3>
+                <p><strong>When:</strong> Fall Quarter 2022</p>
+                <p>
+                    Introduced elements of data science including data collection, management, cleaning as well as
+                    summarizing and visualizing data. (based on the UW MyPlan description)
+                </p>
+
+                <div class="sep"></div>
+                <br />
+
+                <h3>INFO 201: Foundational Skills for Data Science</h3>
+                <p><strong>When:</strong> Fall Quarter 2022</p>
+                <p>
+                    Introduced tools and skills necessary to transform data into knowledge which included data
+                    manipulation, analysis and visualization. Also included data programming languages, version control
+                    and collaborative team programming through Git and GitHub. (based on the UW MyPlan description)
+                </p>
+            </div>
+
+            <div class="info course-group">
+                <h3>INFO 200: Intellectual Foundations of Informatics</h3>
+                <p><strong>When:</strong> Winter Quarter 2022</p>
+                <p>
+                    Introduced the theory of informatics including what it is, how people interact with information, how
+                    human values shape information and how information shape individuals and societies. (based on the UW
+                    MyPlan description)
+                </p>
+            </div>
+            
+            <div class="java course-group">
+                <h3>AP Computer Science A</h3>
+                <p><strong>When:</strong> Junior Year of High School, 2019-2020</p>
+                <p>
+                    Learned programming concepts through the Java language. Included concepts such as user input, 
+                    object-oriented programming, encapsulation and polymorphism
+                </p>
+
+                <div class="sep"></div>
+                <br />
+
+                <h3>Advanced Programming Topics</h3>
+                <p><strong>When:</strong> Senior Year of High School, 2020-2021</p>
+                <p>
+                    A class taken after AP Computer Science A. Introduced more advanced Java concepts such as event handlers,
+                    threads, packages and machine learning.
+                </p>
+
+                <div class="sep"></div>
+                <br />
+
+                <h3>CSE 142: Computer Programming I</h3>
+                <p><strong>When:</strong> Spring Quarter 2022</p>
+                <p>
+                    Basic Java procedural programming including control structures, arrays and defining objects.
+                </p>
+
+                <div class="sep"></div>
+                <br />
+
+                <h3>CSE 143: Computer Programming II</h3>
+                <p><strong>When:</strong> Summer Quarter 2022</p>
+                <p>
+                    Continuation of CSE 143. More advanced Java concepts including linked lists, binary trees and
+                    recursion.
+                </p>
+            </div>
+
+            <div class="skills course-group">
+                <h3>Microsoft Office Certification</h3>
+                <p><strong>When:</strong> Senior Year of High School, 2020</p>
+                <p>
+                    Learned features of Microsoft Word, PowerPoint and Excel to become certified in the platforms.
+                </p>
+            </div>
+
+            <div class="stats course-group">
+                <h3>CS&SS 221: Statistical Conceptss and Methods for the Social Sciences</h3>
+                <p><strong>When:</strong> Spring Quarter 2022</p>
+                <p>
+                    Developed statistical literacy. Examined statistical studies, study designs, inferences, summaries
+                    of different kinds of data, estimation, significance tests and more. Emphasized social science examples
+                    and cases. (based on the UW MyPlan description)
+                </p>
+            </div>
+
+            <div class="web-dev course-group">
+                <h3>Web Design</h3>
+                <p><strong>When:</strong> Sophomore Year of High School, 2018</p>
+                <p>
+                    Used HTML and CSS to create websites
+                </p>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+                crossorigin="anonymous">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="index.js" charset="utf-8"></script>
+        
+    </body>
+    
+</html>
