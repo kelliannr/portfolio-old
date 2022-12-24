@@ -27,11 +27,9 @@ body {
 }
 
 #header-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    padding-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /*background-color: aqua;*/
 }
 
 @font-face {
@@ -43,7 +41,7 @@ body {
     display: inline;
     align-content: center;
     justify-content: center;
-    margin: auto;
+    /*margin: auto;
     margin-left: 26.2%;/* 27.3, 22.5*/
     color: #520002;
     font-family: fancyFont;
@@ -54,16 +52,16 @@ body {
     color: #520002;
     font-family: fancyFont;
 }
-
+/*
 #main {
     display: inline;
     margin: auto;
-}
+}*/
 
 #imgs {
     display: inline;
-    margin-left: auto;
-    margin-right: 25px;
+    /*margin-left: auto;
+    margin-right: 25px;*/
 }
 
 #imgs a {
