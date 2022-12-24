@@ -54,16 +54,3 @@ h2, #img-gallery {
     height: auto;
     width: 75%;
 }
-
-#img-btn {
-    margin: auto;
-    width: 89%;
-}
-
-#img-gallery-content h2 {
-    float:left;
-}
-
-.proj-content {
-    margin-left: 6%;
-}
